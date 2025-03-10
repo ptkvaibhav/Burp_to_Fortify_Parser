@@ -1,0 +1,4 @@
+com\fortify\plugin\spi\parser\PluginParserBase.class
+com\fortify\plugin\spi\parser\ParseContext.class
+com\fortify\ssc\parser\burp\BurpParser.class
+com\fortify\plugin\spi\parser\IScanParser.class

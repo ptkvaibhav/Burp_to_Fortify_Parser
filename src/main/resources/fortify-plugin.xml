@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugin>
+    <Name>Fortify SSC Parser - Burp Suite</Name>
+    <Version>1.0.0</Version>
+    <Vendor>Your Company Name</Vendor>
+    <Description>Parses Burp Suite XML reports and converts them into Fortify FPR format.</Description>
+    <Parsers>
+        <Parser>
+            <Name>Burp Parser</Name>
+            <ParserClass>com.fortify.ssc.parser.burp.BurpParser</ParserClass>
+            <InputFileExtensions>
+                <Extension>xml</Extension>
+            </InputFileExtensions>
+            <OutputFileExtension>fpr</OutputFileExtension>
+        </Parser>
+    </Parsers>
+</Plugin>
